@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nexus News</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-[#1d1e1e] text-white font-sans scroll-smooth">
+
+  <!-- Sidebar -->
+  <aside id="sidebar" class="fixed top-0 left-0 h-full w-64 bg-cyan-800 p-4 space-y-4 transform -translate-x-full transition-transform duration-300 z-50">
+    <button id="closeSidebar" class="text-white text-xl mb-4">✕ Close</button>
+    <!-- Sidebar Links -->
+    <a href="#emerging" class="block text-white hover:bg-cyan-600 p-2 rounded">EMERGING TECHNOLOGIES</a>
+    <a href="#trends" class="block text-white hover:bg-cyan-600 p-2 rounded">TECH INDUSTRY TRENDS</a>
+    <a href="#cyber" class="block text-white hover:bg-cyan-600 p-2 rounded">CYBER SECURITY</a>
+    <a href="#daily" class="block text-white hover:bg-cyan-600 p-2 rounded">TECH IN DAILY LIFE</a>
+    <a href="#comparison" class="block text-white hover:bg-cyan-600 p-2 rounded">COMPARISON</a>
+  </aside>
+
+  <!-- Header -->
+  <header class="bg-cyan-600 rounded-2xl p-4 mb-6">
+    <div class="flex items-center">
+      <!-- Sidebar Toggle Button (now always visible & top-left) -->
+      <button id="toggleSidebar" class="text-white text-2xl mr-4">
+        ☰
+      </button>
+      <h1 class="text-white italic text-3xl font-bold">NEXUS NEWS</h1>
+    </div>
+
+    <!-- Main Navbar (optional on desktop) -->
+    <nav class="mt-4 flex flex-wrap gap-6">
+      <a href="#emerging" class="text-white no-underline hover:bg-cyan-200 px-3 py-1 rounded transition">EMERGING TECHNOLOGIES</a>
+      <a href="#trends" class="text-white no-underline hover:bg-cyan-200 px-3 py-1 rounded transition">TECH INDUSTRY TRENDS</a>
+      <a href="#cyber" class="text-white no-underline hover:bg-cyan-200 px-3 py-1 rounded transition">CYBER SECURITY</a>
+      <a href="#daily" class="text-white no-underline hover:bg-cyan-200 px-3 py-1 rounded transition">TECH IN DAILY LIFE</a>
+      <a href="#comparison" class="text-white no-underline hover:bg-cyan-200 px-3 py-1 rounded transition">COMPARISON</a>
+    </nav>
+  </header>
+
+  <!-- Content -->
+  <div class="space-y-6 px-4">
+    <section id="emerging">
+      <h2 class="text-xl italic font-semibold mb-2">EMERGING TECHNOLOGIES</h2>
+      <ul class="list-disc list-inside italic">
+        <li>ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING</li>
+        <li>BLOCKCHAIN AND CRYPTOCURRENCY</li>
+        <li>VIRTUAL REALITY AND AUGMENTED REALITY</li>
+      </ul>
+    </section>
+
+    <section id="trends">
+      <h2 class="text-xl italic font-semibold mb-2">TECH INDUSTRY TRENDS</h2>
+      <ul class="list-disc list-inside italic">
+        <li>STARTUP AND FUNDING NEWS</li>
+        <li>MARKET ANALYSIS AND FORECAST</li>
+      </ul>
+    </section>
+
+    <section id="cyber">
+      <h2 class="text-xl italic font-semibold mb-2">CYBER SECURITY</h2>
+      <ul class="list-disc list-inside italic">
+        <li>DATA BREACHES AND SECURITY THREATS</li>
+        <li>BEST PRACTICES FOR ONLINE SAFETY</li>
+        <li>NEW SECURITY TECHNOLOGIES</li>
+      </ul>
+    </section>
+
+    <section id="daily">
+      <h2 class="text-xl italic font-semibold mb-2">TECH IN DAILY LIFE</h2>
+      <ul class="list-disc list-inside italic">
+        <li>IMPACT OF TECHNOLOGIES ON SOCIETY</li>
+        <li>INNOVATION FOR EDUCATION</li>
+        <li>HEALTHCARE AND BUSINESS</li>
+        <li>REVIEW OF SMART HOME DEVICES</li>
+      </ul>
+    </section>
+
+    <section id="comparison">
+      <h2 class="text-xl italic font-semibold mb-2">COMPARISON</h2>
+      <ul class="list-disc list-inside italic">
+        <li>NEW DEVICES AND GADGETS</li>
+        <li>COMPARISON OF COMPETING PRODUCTS</li>
+      </ul>
+    </section>
+  </div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
+
+  
