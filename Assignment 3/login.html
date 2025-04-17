@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Login - Web Nexus</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 flex items-center justify-center h-screen text-gray-800">
+
+    <div class="bg-white p-8 rounded-lg shadow-lg w-full max-w-md text-center">
+        <h1 class="text-2xl font-semibold text-gray-800 mb-6">Web Nexus Login</h1>
+
+        <form action="#" method="post" class="space-y-5 text-left">
+            <div>
+                <label for="username" class="block mb-2 text-gray-700">Username</label>
+                <input
+                    type="text"
+                    id="username"
+                    name="username"
+                    placeholder="Enter your username"
+                    required
+                    class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                />
+            </div>
+
+            <div>
+                <label for="password" class="block mb-2 text-gray-700">Password</label>
+                <input
+                    type="password"
+                    id="password"
+                    name="password"
+                    placeholder="Enter your password"
+                    required
+                    class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                />
+            </div>
+
+            <!-- You can replace this anchor with a button if needed -->
+            <a href="nexus.html"
+               class="block w-full bg-blue-500 hover:bg-blue-600 text-white text-center py-2 rounded-md transition duration-200">
+                Login
+            </a>
+        </form>
+
+        <p class="mt-6 text-sm">
+            Don't have an account?
+            <a href="signup.html" class="text-blue-500 hover:underline">Sign up here</a>
+        </p>
+    </div>
+
+</body>
+</html>
